@@ -10,6 +10,7 @@ public class Main {
 		for(int size = 10; size < 1_000_000; size*=2){
 			testTimeForSize(size);
 		}
+		
 	}
 	
 	public static void testTimeForSize(int size){
